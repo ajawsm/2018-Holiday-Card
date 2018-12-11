@@ -224,6 +224,13 @@ p {
    
    
 }
+    
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .text-overlay {
+        transform: translate(-100%, -50%);
+        width: 95%;
+    }
+}
 
 .text-overlay:hover {
     opacity: 1;
